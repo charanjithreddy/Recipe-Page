@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    background-color:hsl(30, 54%, 90%) ;
+
+}
+.content{
+    width:50vw;
+    position: absolute;
+    left: 20vw;
+    background-color:white;
+    border-radius: 30px;
+    padding:50px;
+}
+img{
+    width:100%;
+    border-radius: 30px;
+}
+h1{
+    font-family: Young serif;
+    font-weight: 400;
+}
+p{
+    font-family:outfit;
+    font-weight: 400;
+    color:hsl(30, 10%, 34%);;
+}
+.Preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius:20px;
+    padding:20px;
+}
+.Preparation h3{
+    color:hsl(332, 51%, 32%);
+    font-family:outfit;
+    font-weight: 600;
+}
+.Preparation li{
+    color:hsl(24, 5%, 18%);
+    font-family:outfit;
+    font-weight: 400;
+    padding:7px;
+}
+.boldinpink{
+    font-weight:500;
+}
+.Ingredients h2{
+    font-family:Young serif;
+    font-weight:normal;
+    color:hsl(14, 45%, 36%);
+}
+.Ingredients li{
+    font-family:outfit;
+    font-weight:400;
+    padding:5px;
+    color:hsl(30, 10%, 34%);
+}
+.Ingredients li::marker{
+    color:hsl(14, 45%, 36%);
+}
+.Instructions h2{
+    font-family:Young serif;
+    font-weight:normal;
+    color:hsl(14, 45%, 36%);
+}
+.Instructions li::marker{
+    color:hsl(14, 45%, 36%);
+    
+}
+.Instructions li{
+    font-weight:400;
+    font-family:outfit;
+    padding:5px;
+    color:hsl(30, 10%, 34%)
+}
+.instructionbold{
+    font-weight:bold ;
+    font-family:outfit;
+    padding:2px;
+}
+.Nutrition h2{
+    font-family:Young serif;
+    font-weight:normal;
+    color:hsl(14, 45%, 36%);
+}
+.Nutrition p,td{
+    font-weight:400;
+    font-family:outfit;
+    padding:5px;
+    color:hsl(30, 10%, 34%)
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding:15px;
+}
+tr{
+    border:solid;
+    border-width:0.5px 0;
+    
+}
+tr:first-child {
+  border-top: none;
+}
+tr:last-child {
+  border-bottom: none;
+}
+
+.value{
+    color:hsl(14, 45%, 36%);
+    font-weight:700;
+}
